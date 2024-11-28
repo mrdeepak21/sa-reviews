@@ -4,7 +4,9 @@
     "description": "Fetching Google reviews from google using Javascript API and react",
     "scripts": {
         "build": "webpack --mode production",
-        "start": "webpack --mode development --watch"
+        "start": "webpack --mode development --watch",
+        "tailwind" : "npx tailwindcss -i ./src/index.css -o ./build/reviews.css --watch",
+        "tailwindbuild" : "npx tailwindcss -i ./src/index.css -o ./build/reviews.css --minify"
     },
     "dependencies": {
         "react": "^18.3.1",

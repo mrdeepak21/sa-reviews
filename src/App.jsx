@@ -1,58 +1,58 @@
 import React, { useEffect, useState } from "react";
-import FancyCarousel from "react-fancy-circular-carousel";
-import "react-fancy-circular-carousel/FancyCarousel.css";
+import FancyCarousel from "./react-fancy-circular-carousel";
+import "./react-fancy-circular-carousel/FancyCarousel.css";
 import Data from "../reviews.json";
 import { useViewport } from "react-viewport-hooks";
 import Star from "./star.svg";
 
 
+
 export default function App() {
 
-  const newData = Array(Data)[0]['reviews'];
+const imgSrcUrl = 'http://dev.sterlingadministration.com';
 
-  const [images, setImages] = useState([]);
+const images = [
+  imgSrcUrl+"/wp-content/uploads/2024/07/insurance.svg",
+  imgSrcUrl+"/wp-content/uploads/2024/07/apple-1.svg",
+  imgSrcUrl+"/wp-content/uploads/2024/07/circle-dollar.svg",
+  imgSrcUrl+"/wp-content/uploads/2024/07/train.svg",
+  imgSrcUrl+"/wp-content/uploads/2024/07/gift-box-heart.svg",
+  imgSrcUrl+"/wp-content/uploads/2024/07/heart-care.svg",
+  imgSrcUrl+"/wp-content/uploads/2024/07/pig-piggy-bank.svg",
+  imgSrcUrl+"/wp-content/uploads/2024/07/insurance.svg",
+  imgSrcUrl+"/wp-content/uploads/2024/07/apple-1.svg",
+  imgSrcUrl+"/wp-content/uploads/2024/07/circle-dollar.svg"
+];
 
-  const [focusElement, setFocusElement] = useState(0);
+const newData = Array(Data)[0]['reviews'];
 
-  const { vw } = useViewport();
+const [focusElement, setFocusElement] = useState(0);
 
-  const r = Math.abs(vw / (vw > 800 ? 5 : 3));
+const { vw } = useViewport();
 
-  const [random, setRandom] = useState([]);
+const r = Math.abs(vw / (vw > 1024 ? 5 : 3));
 
-  const imgSrcUrl = 'http://dev.sterlingadministration.com';
+const [random, setRandom] = useState([]);
 
-  useEffect(() => {
+useEffect(()=>{
 
-    let review = [];
+  let review = [];
 
-    for (let i = 0; review.length < 10; i++) {
+  for (let i = 0; review.length < 10; i++) {
 
-      let random = Math.floor(Math.random() * (newData.length - 1 + 1) + 1);
+  const rand = Math.floor(Math.random() * (newData.length - 1 + 1) + 1);
 
-      if (!review.includes(random) && newData[random]?.starRating === "FIVE" && newData[random].hasOwnProperty('comment'))
-        review.push(random);
+  if (!review.includes(rand) && newData[rand]?.starRating === "FIVE" && newData[rand].hasOwnProperty('comment'))
+      review.push(rand);
+  }
 
-    }
+  setRandom(review);
 
-    setRandom(review);
+},[]);
 
-    setImages( [
-        imgSrcUrl+"/wp-content/uploads/2024/07/insurance.svg",
-        imgSrcUrl+"/wp-content/uploads/2024/07/apple-1.svg",
-        imgSrcUrl+"/wp-content/uploads/2024/07/circle-dollar.svg",
-        imgSrcUrl+"/wp-content/uploads/2024/07/train.svg",
-        imgSrcUrl+"/wp-content/uploads/2024/07/gift-box-heart.svg",
-        imgSrcUrl+"/wp-content/uploads/2024/07/heart-care.svg",
-        imgSrcUrl+"/wp-content/uploads/2024/07/pig-piggy-bank.svg",
-        imgSrcUrl+"/wp-content/uploads/2024/07/insurance.svg",
-        imgSrcUrl+"/wp-content/uploads/2024/07/apple-1.svg",
-        imgSrcUrl+"/wp-content/uploads/2024/07/circle-dollar.svg"
-    ]);
-console.log(images);
-  }, []);
+
   return (
-    <div className="flex gap-20 lg:gap-0 justify-start lg:justify-center relative flex-col lg:flex-row">
+    <div className="flex gap-0 justify-start lg:justify-center relative flex-col lg:flex-row">
       <div className="flex justify-center lg:justify-end lg:items-center w-full lg:w-1/3 overflow-hidden z-10">
         <div className="-mt-32 lg:mt-0 min-h-96 pb-10 lg:pb-0 lg:pr-32 lg:ml-[-100%]">
           <FancyCarousel
@@ -60,10 +60,8 @@ console.log(images);
             setFocusElement={setFocusElement}
             focusElementStyling={{ border: '2px solid var(--e-global-color-1a239e5)' }}
             peripheralImageBoxShadow="0 0 20px 2px rgba(0,0,0,0.1)"
-            peripheralImageRadius={r > 150 ? r / 8 : r / 4}
+            peripheralImageRadius={r > 150 ? (r<180?r/5:r / 8) : r / 4}
             border={false}
-            transitionTime={3}
-            autoRotateTime = {3}
             offsetAngle={vw > 1024 ? 270 : 180}
             carouselRadius={r}
             navigationTextSize={1.5}

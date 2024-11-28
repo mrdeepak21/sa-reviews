@@ -37,10 +37,16 @@
   }
 }
 
-.fancy-carousel-navigators button:hover {
+.fancy-carousel-navigators button:hover,.fancy-carousel-navigators button:focus {
   background-color: transparent;
 }
 
 .fancy-corousel-indicator{
   padding: 0 10px;
 }
+
+.fancy-carousel-element{
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
