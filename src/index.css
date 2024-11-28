@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#reviews-app {
+  font-family: inherit;
+}
+
+.fancy-carousel-element {
+  padding: 1rem;
+}
+
+.fancy-carousel-element.central-img {
+  display: none;
+}
+
+@media only screen and (max-width:1024px) {
+  .fancy-carousel-border {
+    margin: 0 auto;
+  }
+}
+
+.fancy-carousel-navigators {
+  position: absolute;
+  left: 0;
+  bottom: 49%;
+  display: block;
+  margin-left: 0!important;
+}
+
+@media only screen and (max-width:1024px) {
+  .fancy-carousel-navigators {
+    position: static;
+    margin: 4rem auto 0 ;
+    text-align: center;
+  }
+}
+
+.fancy-carousel-navigators button:hover {
+  background-color: transparent;
+}
+
+.fancy-corousel-indicator{
+  padding: 0 10px;
+}

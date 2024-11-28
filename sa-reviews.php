@@ -30,9 +30,6 @@ class SAReviews {
          */
         add_action( 'wp_enqueue_scripts', function () {
             wp_enqueue_script( 'sa-reviews', SA_URL . 'build/reviews.js', [ 'jquery', 'wp-element' ], "1.0.0", true );
-            wp_localize_script( 'sa-reviews', 'appLocalizer', [
-                'nonce' => wp_create_nonce( 'wp_rest' ),
-            ] );
         } );
 
 
@@ -43,9 +40,9 @@ class SAReviews {
 
         ob_start();
         ?>
-        <link rel="stylesheet" id="sa-reviews-css" href="<?php echo SA_URL ; ?>reviews.css?ver=1.0.0">
+        <link rel="stylesheet" id="sa-reviews-css" href="<?php echo SA_URL ; ?>build/reviews.css?ver=1.0.0">
         <div id="reviews-app">
-        <span class="loading">Loading...</span>
+        <span class="animate-spin h-5 w-5 flex items-center justify-center">Loading...</span>
         </div>
         
         <?php
