@@ -2,238 +2,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./assets/apple.svg":
-/*!**************************!*\
-  !*** ./assets/apple.svg ***!
-  \**************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _path;
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-
-var SvgApple = function SvgApple(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 800,
-    height: 800,
-    fill: "#FE7721",
-    viewBox: "0 0 24 24"
-  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M20 10c2 3-3 12-5 12s-2-1-3-1-1 1-3 1-7-9-5-12 5-3 7-2V5C5.38 8.07 4.11 3.78 4.11 3.78S6.77.19 11 5V3h2v5c2-1 5-1 7 2"
-  })));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SvgApple);
-
-/***/ }),
-
-/***/ "./assets/circle-dollar.svg":
-/*!**********************************!*\
-  !*** ./assets/circle-dollar.svg ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _path;
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-
-var SvgCircleDollar = function SvgCircleDollar(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 800,
-    height: 800,
-    fill: "none",
-    viewBox: "0 0 24 24"
-  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    stroke: "#FE7721",
-    strokeLinecap: "round",
-    strokeLinejoin: "round",
-    strokeWidth: 2,
-    d: "M15 10v-.083A1.917 1.917 0 0 0 13.083 8H11a2 2 0 1 0 0 4h2a2 2 0 1 1 0 4h-2.042A1.96 1.96 0 0 1 9 14.042V14m3 3.5v-11m9 5.5a9 9 0 1 1-18 0 9 9 0 0 1 18 0"
-  })));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SvgCircleDollar);
-
-/***/ }),
-
-/***/ "./assets/gift-box-heart.svg":
-/*!***********************************!*\
-  !*** ./assets/gift-box-heart.svg ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _path;
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-
-var SvgGiftBoxHeart = function SvgGiftBoxHeart(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlSpace: "preserve",
-    width: 800,
-    height: 800,
-    fill: "#FE7721",
-    viewBox: "0 0 512 512"
-  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M408 160h-64c15.55-.021 28.483-12.719 28.504-28.269s-12.568-28.139-28.118-28.118c.023-17.486-15.9-31.228-34.048-27.504C297.124 78.82 288 91.085 288 104.575v5.667c-4.256-3.838-9.831-6.242-16-6.242h-32c-6.169 0-11.744 2.404-16 6.242v-5.667c0-13.491-9.124-25.755-22.339-28.467-18.148-3.724-34.071 10.018-34.048 27.504-15.549-.021-28.138 12.568-28.118 28.118.022 15.551 12.955 28.249 28.505 28.27h-64c-17.673 0-32 14.327-32 32v8c0 17.673 14.327 32 32 32h96v16H96v161.28c0 16.966 13.754 30.72 30.72 30.72H200c8.837 0 16-7.163 16-16V168h80v256c0 8.837 7.163 16 16 16h73.28c16.966 0 30.72-13.754 30.72-30.72V248H312v-16h96c17.673 0 32-14.327 32-32v-8c0-17.673-14.327-32-32-32m-176-8v-24c0-4.41 3.586-8 8-8h32c4.414 0 8 3.59 8 8v24z"
-  })));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SvgGiftBoxHeart);
-
-/***/ }),
-
-/***/ "./assets/heart-care.svg":
-/*!*******************************!*\
-  !*** ./assets/heart-care.svg ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _path, _path2;
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-
-var SvgHeartCare = function SvgHeartCare(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlSpace: "preserve",
-    width: 800,
-    height: 800,
-    fill: "#FE7721",
-    viewBox: "0 0 195.296 195.296"
-  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M6.168 98.509h62.714l9.86-46.453a4.98 4.98 0 0 1 5.025-3.96 5 5 0 0 1 4.806 4.223l8.212 52.346 5.126-16.338a5 5 0 0 1 9.126-.959l7.196 12.765 70.343-.545c2.813-5.474 4.885-11.471 5.908-18.094 2.852-18.445-1.915-37.002-12.749-49.641-9.598-11.196-23.243-17.113-39.459-17.113-25.163 0-39.46 16.897-44.629 24.519-5.168-7.622-19.466-24.519-44.629-24.519-16.216 0-29.861 5.917-39.459 17.113C2.726 44.491-2.041 63.049.811 81.494a59 59 0 0 0 5.357 17.015"
-  })), _path2 || (_path2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M115.364 110.155c-1.798-.029-3.501-.96-4.394-2.544l-2.974-5.275-8.068 25.714a5 5 0 0 1-9.71-.722l-7.323-46.676-5.072 23.896a5 5 0 0 1-4.891 3.962H12.253c11.886 16.212 30.28 27.131 44.996 35.856 7.213 4.277 14.026 8.317 18.764 12.182 17.495 14.272 19.096 21.473 19.155 21.773.154 1.249 1.21 2.236 2.476 2.236 1.292 0 2.367-.94 2.484-2.227.012-.071 1.37-7.272 19.157-21.782 4.738-3.865 11.551-7.905 18.764-12.182 14.372-8.522 32.255-19.134 44.155-34.728z"
-  })));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SvgHeartCare);
-
-/***/ }),
-
-/***/ "./assets/insurance.svg":
-/*!******************************!*\
-  !*** ./assets/insurance.svg ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _path;
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-
-var SvgInsurance = function SvgInsurance(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 800,
-    height: 800,
-    fill: "#FE7721",
-    className: "insurance_svg__cf-icon-svg",
-    viewBox: "-1 0 19 19"
-  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M16.417 9.583A7.917 7.917 0 1 1 8.5 1.666a7.917 7.917 0 0 1 7.917 7.917M12.75 5.691a.32.32 0 0 0-.317-.317h-7.84a.32.32 0 0 0-.316.317v5.563c0 2.34 4.236 3.658 4.236 3.658s4.237-1.318 4.237-3.658zm-2.617 4.933a1.17 1.17 0 0 1-.586 1.005 1.9 1.9 0 0 1-.652.26v.46a.396.396 0 0 1-.792 0v-.456l-.033-.005a2 2 0 0 1-.415-.127 1.3 1.3 0 0 1-.512-.376.396.396 0 0 1 .599-.518.56.56 0 0 0 .207.159 1.3 1.3 0 0 0 .257.082 2 2 0 0 0 .275.033 1.23 1.23 0 0 0 .635-.176c.2-.13.225-.25.225-.341a.4.4 0 0 0-.099-.26.8.8 0 0 0-.218-.176 1 1 0 0 0-.263-.094 1.2 1.2 0 0 0-.256-.026 2.4 2.4 0 0 1-.395-.032 1.8 1.8 0 0 1-.504-.162 1.4 1.4 0 0 1-.474-.381 1.2 1.2 0 0 1-.28-.761 1.23 1.23 0 0 1 .615-1.041 1.9 1.9 0 0 1 .636-.248v-.444a.396.396 0 1 1 .792 0v.456l.005.001.026.006a2 2 0 0 1 .421.144 1.6 1.6 0 0 1 .452.31.396.396 0 0 1-.56.56.8.8 0 0 0-.217-.148 1.4 1.4 0 0 0-.264-.093l-.026-.005a1.3 1.3 0 0 0-.221-.037 1.2 1.2 0 0 0-.622.167.44.44 0 0 0-.245.371.44.44 0 0 0 .102.262.7.7 0 0 0 .215.173 1 1 0 0 0 .279.09 1.6 1.6 0 0 0 .265.02 2 2 0 0 1 .424.044 1.9 1.9 0 0 1 .464.168 1.6 1.6 0 0 1 .446.354 1.2 1.2 0 0 1 .294.782"
-  })));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SvgInsurance);
-
-/***/ }),
-
-/***/ "./assets/piggy.svg":
-/*!**************************!*\
-  !*** ./assets/piggy.svg ***!
-  \**************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _g;
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-
-var SvgPiggy = function SvgPiggy(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    xmlSpace: "preserve",
-    id: "piggy_svg___x32_",
-    width: 800,
-    height: 800,
-    fill: "#000",
-    viewBox: "0 0 512 512"
-  }, props), _g || (_g = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("g", {
-    id: "piggy_svg__SVGRepo_iconCarrier"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("style", null, ".piggy_svg__st0{fill:#fe7721}"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M273.975 108.679c2.547.672 5.234 1.094 8.047 1.328l.047 8.094 9.875-.063-.063-8.266c1.328-.188 2.625-.422 3.875-.75 2.828-.766 5.266-1.891 7.297-3.391s3.625-3.359 4.766-5.563c1.172-2.188 1.719-4.734 1.703-7.656-.031-4.891-1.547-8.609-4.516-11.141-2.953-2.531-7.344-4.031-13.094-4.484l-7.781-.594c-2.766-.281-4.75-.922-5.906-1.953-1.188-1-1.766-2.469-1.781-4.359-.016-2.094.781-3.828 2.422-5.172 1.609-1.313 4.156-1.984 7.594-2a29.2 29.2 0 0 1 7.484.875c2.391.594 5.156 2.547 5.156 2.547a1.59 1.59 0 0 0 1.875-.328l4.609-4.75c.359-.359.516-.875.422-1.375a1.57 1.57 0 0 0-.828-1.188s-3.672-2.828-7.141-3.734c-2.047-.547-4.25-.906-6.547-1.109l-.047-7-9.875.078.047 7.141a27 27 0 0 0-3.266.688c-2.516.75-4.719 1.875-6.594 3.328-1.891 1.469-3.359 3.266-4.453 5.391-1.063 2.141-1.594 4.547-1.578 7.234.031 4.891 1.469 8.531 4.344 10.922 2.844 2.375 6.906 3.813 12.172 4.266l8.859.719c2.703.281 4.625.953 5.75 2.016 1.156 1.109 1.719 2.594 1.734 4.484.016 2.641-1.109 4.578-3.406 5.844-2.281 1.25-5.172 1.875-8.688 1.906a31.6 31.6 0 0 1-8.359-1.094c-2.813-.734-6.547-3.922-6.547-3.922a1.65 1.65 0 0 0-2 .234l-4.906 5.016c-.359.328-.516.828-.453 1.328.047.5.344.938.781 1.188.001-.001 5.095 4.233 8.97 5.265",
-    className: "piggy_svg__st0"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M287.334 161.71c43.813-.313 79.063-36.078 78.75-79.891-.297-43.813-36.078-79.094-79.891-78.766-43.813.313-79.078 36.078-78.766 79.891.298 43.813 36.079 79.078 79.907 78.766m-1-138.828c32.813-.219 59.688 26.266 59.938 59.063.219 32.828-26.281 59.703-59.094 59.938s-59.688-26.266-59.922-59.078 26.265-59.689 59.078-59.923",
-    className: "piggy_svg__st0"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M507.412 168.288c-3.469-1.156-7.219.75-8.344 4.234-2.938 8.938-6.922 14.016-11.406 17.406-1.313 1-2.719 1.813-4.188 2.547a31.2 31.2 0 0 0 1.063-8.344c-.031-4.484-1.047-9.078-3.547-13.172a22.6 22.6 0 0 0-8.547-8.188 23.1 23.1 0 0 0-11.125-2.797c-3.75.016-7.563 1-11.031 2.969a.3.3 0 0 0-.156.078c-.094.031-.172.078-.25.125h-.031l-.172.109c-.016 0-.016 0-.031.016-.109.078-.219.188-.344.266-.016 0-.016.016-.031.016-3.266 2.125-5.875 4.938-7.625 8.172a22.85 22.85 0 0 0-2.797 11.125 22.76 22.76 0 0 0 3.297 11.656c2.781 4.531 6.844 8.156 11.547 10.828.891.516 1.844.938 2.797 1.375a47.4 47.4 0 0 1-7.328 3.828c-3.578 1.484-7.625 2.609-12 3.234-14.844-22.469-36.891-43.078-68.438-60.313-5-2.734-10.141-5.125-15.344-7.234-8.75 9.125-19.328 16.484-31.188 21.406-4.656 1.969-5.141 5.906.281 6.547 4.844.563 9.625 1.25 14.422 2.031l.172 23.844c-40.313-4.797-70.313-4.594-110.547.781l-.172-23.828a325 325 0 0 1 20.578-3.031c6.391-.703 6.281-5.328.297-8.172-11.297-5.375-21.328-12.984-29.531-22.234-25.172 7.078-47.516 17.203-64.016 27.672-29.671-18.484-55.921-13.422-63.875-11.031l11.281 57.922c-21.516 27.016-38.953 36.141-38.953 36.141l-43.828 8.984a18.44 18.44 0 0 0-15.359 8.406A18.5 18.5 0 0 0 1.552 289.1l34.375 95.781c2.984 6.734 9.656 11.063 17.016 11l72.078 14.563 30.89 76.203c15.422 33.484 56.016 26.172 57.438-1.5l6.234-37.969 105.141-.75s3.375 16.875 5.094 31.406c2.594 21.922 35.047 50.141 67.25 6.016 37.078-50.797 95.969-166.969 47.266-258.016 6.125-1.422 11.688-3.563 16.391-6.203 4.031-2.266 7.5-4.844 10.391-7.5a42 42 0 0 0 2.906-2.938c.063-.016.125-.016.188-.047l.016.031c7.047-1.234 14.609-3.547 21.406-8.641 6.813-5.094 12.484-12.922 16.047-23.906a6.62 6.62 0 0 0-4.267-8.342m-37.234 22.422c-.703 2.063-1.75 4-2.953 5.563-2.281-.328-4.766-1.188-7-2.469-2.984-1.656-5.484-4.047-6.734-6.172v.016c-.953-1.563-1.391-3.219-1.391-4.891a9.8 9.8 0 0 1 1.172-4.688 9.44 9.44 0 0 1 3.375-3.516 9.45 9.45 0 0 1 4.75-1.328 9.46 9.46 0 0 1 4.688 1.172c1.438.781 2.672 1.938 3.594 3.438 1 1.656 1.578 3.844 1.594 6.391.045 2.078-.361 4.343-1.095 6.484",
-    className: "piggy_svg__st0"
-  }))));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SvgPiggy);
-
-/***/ }),
-
-/***/ "./assets/train.svg":
-/*!**************************!*\
-  !*** ./assets/train.svg ***!
-  \**************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _path;
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-
-var SvgTrain = function SvgTrain(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
-    xmlns: "http://www.w3.org/2000/svg",
-    width: 800,
-    height: 800,
-    fill: "#FE7721",
-    viewBox: "-2 0 20 20"
-  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    fill: "#FE7721",
-    fillRule: "evenodd",
-    d: "M2 9.959V3.09c0-.55.448-1.1 1-1.1h10c.552 0 1 .55 1 1.1V9.96zm9.984 3.099v-.016a.99.99 0 0 1 .993-.988h.015a.99.99 0 0 1 .992.988v.016a.99.99 0 0 1-.992.988h-.015a.99.99 0 0 1-.993-.988m-8.976.988h-.016A.99.99 0 0 1 2 13.058a.99.99 0 0 1 .992-.988h.016a.99.99 0 0 1 .992.988.99.99 0 0 1-.992.988M2 0C.895 0 0 .996 0 2.095v11.951c0 1.1.895 1.888 2 1.888h2.356l-1.043 2.602c-.245.5-.313 1.13.687 1.365v.013c0 .23.871-.023 1.11-.51l1.472-3.47h2.87l2.007 3.488c.243.48.541.706 1.541.48v.012c0-.237.498-.894.243-1.396l-1.551-2.584H14c1.105 0 2-.788 2-1.888V2.095C16 .995 15.105 0 14 0z"
-  })));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SvgTrain);
-
-/***/ }),
-
 /***/ "./src/star.svg":
 /*!**********************!*\
   !*** ./src/star.svg ***!
@@ -284,26 +52,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reviews_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../reviews.json */ "./reviews.json");
 /* harmony import */ var react_viewport_hooks__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-viewport-hooks */ "./node_modules/react-viewport-hooks/lib/react-viewport-hooks.esm.js");
 /* harmony import */ var _star_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./star.svg */ "./src/star.svg");
-/* harmony import */ var _assets_apple_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/apple.svg */ "./assets/apple.svg");
-/* harmony import */ var _assets_circle_dollar_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/circle-dollar.svg */ "./assets/circle-dollar.svg");
-/* harmony import */ var _assets_gift_box_heart_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/gift-box-heart.svg */ "./assets/gift-box-heart.svg");
-/* harmony import */ var _assets_heart_care_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/heart-care.svg */ "./assets/heart-care.svg");
-/* harmony import */ var _assets_insurance_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/insurance.svg */ "./assets/insurance.svg");
-/* harmony import */ var _assets_piggy_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/piggy.svg */ "./assets/piggy.svg");
-/* harmony import */ var _assets_train_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/train.svg */ "./assets/train.svg");
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
 function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
 function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-
-
-
-
-
-
 
 
 
@@ -328,6 +82,7 @@ function App() {
     _useState6 = _slicedToArray(_useState5, 2),
     random = _useState6[0],
     setRandom = _useState6[1];
+  var imgSrcUrl = 'http://dev.sterlingadministration.com';
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {
     var review = [];
     for (var i = 0; review.length < 10; i++) {
@@ -336,8 +91,8 @@ function App() {
       if (!review.includes(_random) && ((_newData$_random = newData[_random]) === null || _newData$_random === void 0 ? void 0 : _newData$_random.starRating) === "FIVE" && newData[_random].hasOwnProperty('comment')) review.push(_random);
     }
     setRandom(review);
-    setImages([_assets_apple_svg__WEBPACK_IMPORTED_MODULE_6__["default"], _assets_circle_dollar_svg__WEBPACK_IMPORTED_MODULE_7__["default"], _assets_gift_box_heart_svg__WEBPACK_IMPORTED_MODULE_8__["default"], _assets_heart_care_svg__WEBPACK_IMPORTED_MODULE_9__["default"], _assets_insurance_svg__WEBPACK_IMPORTED_MODULE_10__["default"], _assets_piggy_svg__WEBPACK_IMPORTED_MODULE_11__["default"], _star_svg__WEBPACK_IMPORTED_MODULE_5__["default"], _assets_train_svg__WEBPACK_IMPORTED_MODULE_12__["default"], _assets_piggy_svg__WEBPACK_IMPORTED_MODULE_11__["default"], _assets_heart_care_svg__WEBPACK_IMPORTED_MODULE_9__["default"]]);
-    console.log(_assets_apple_svg__WEBPACK_IMPORTED_MODULE_6__["default"]);
+    setImages([imgSrcUrl + "/wp-content/uploads/2024/07/insurance.svg", imgSrcUrl + "/wp-content/uploads/2024/07/apple-1.svg", imgSrcUrl + "/wp-content/uploads/2024/07/circle-dollar.svg", imgSrcUrl + "/wp-content/uploads/2024/07/train.svg", imgSrcUrl + "/wp-content/uploads/2024/07/gift-box-heart.svg", imgSrcUrl + "/wp-content/uploads/2024/07/heart-care.svg", imgSrcUrl + "/wp-content/uploads/2024/07/pig-piggy-bank.svg", imgSrcUrl + "/wp-content/uploads/2024/07/insurance.svg", imgSrcUrl + "/wp-content/uploads/2024/07/apple-1.svg", imgSrcUrl + "/wp-content/uploads/2024/07/circle-dollar.svg"]);
+    console.log(images);
   }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex gap-20 lg:gap-0 justify-start lg:justify-center relative flex-col lg:flex-row"
@@ -364,14 +119,15 @@ function App() {
     navigationButtonStyling: {
       border: "none",
       width: 0,
-      height: 0
+      height: 0,
+      outline: 'none'
     }
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "flex justify-start lg:justify-center flex-col w-full lg:w-2/3 p-5 min-h-[45rem] align-middle text-center lg:text-left"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "text-3xl transition duration-150 ease-in-out"
   }, "\"", (_newData$random$focus = newData[random[focusElement]]) === null || _newData$random$focus === void 0 ? void 0 : _newData$random$focus.comment, "\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "text-xl italic mt-5"
+    className: "text-xl italic mt-5 capitalize"
   }, (_newData$random$focus2 = newData[random[focusElement]]) === null || _newData$random$focus2 === void 0 || (_newData$random$focus2 = _newData$random$focus2.reviewer) === null || _newData$random$focus2 === void 0 ? void 0 : _newData$random$focus2.displayName, " | Google"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "icon mt-5 flex gap-2 flex-row justify-center lg:justify-start"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_star_svg__WEBPACK_IMPORTED_MODULE_5__["default"], {

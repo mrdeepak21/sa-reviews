@@ -4,13 +4,7 @@ import "react-fancy-circular-carousel/FancyCarousel.css";
 import Data from "../reviews.json";
 import { useViewport } from "react-viewport-hooks";
 import Star from "./star.svg";
-import Apple from "../assets/apple.svg";
-import Doller from "../assets/circle-dollar.svg";
-import Gift from "../assets/gift-box-heart.svg";
-import Care from "../assets/heart-care.svg";
-import Insure from "../assets/insurance.svg";
-import Piggy from "../assets/piggy.svg";
-import Train from "../assets/train.svg";
+
 
 export default function App() {
 
@@ -25,6 +19,8 @@ export default function App() {
   const r = Math.abs(vw / (vw > 800 ? 5 : 3));
 
   const [random, setRandom] = useState([]);
+
+  const imgSrcUrl = 'http://dev.sterlingadministration.com';
 
   useEffect(() => {
 
@@ -41,8 +37,19 @@ export default function App() {
 
     setRandom(review);
 
-    setImages([Apple,Doller,Gift,Care,Insure, Piggy, Star, Train, Piggy, Care]);
-    console.log(Apple);
+    setImages( [
+        imgSrcUrl+"/wp-content/uploads/2024/07/insurance.svg",
+        imgSrcUrl+"/wp-content/uploads/2024/07/apple-1.svg",
+        imgSrcUrl+"/wp-content/uploads/2024/07/circle-dollar.svg",
+        imgSrcUrl+"/wp-content/uploads/2024/07/train.svg",
+        imgSrcUrl+"/wp-content/uploads/2024/07/gift-box-heart.svg",
+        imgSrcUrl+"/wp-content/uploads/2024/07/heart-care.svg",
+        imgSrcUrl+"/wp-content/uploads/2024/07/pig-piggy-bank.svg",
+        imgSrcUrl+"/wp-content/uploads/2024/07/insurance.svg",
+        imgSrcUrl+"/wp-content/uploads/2024/07/apple-1.svg",
+        imgSrcUrl+"/wp-content/uploads/2024/07/circle-dollar.svg"
+    ]);
+console.log(images);
   }, []);
   return (
     <div className="flex gap-20 lg:gap-0 justify-start lg:justify-center relative flex-col lg:flex-row">
@@ -62,7 +69,7 @@ export default function App() {
             navigationTextSize={1.5}
             navigationButtonBgColor = 'transparent' 
             navigationButtonColor = '534B42'
-            navigationButtonStyling={{border: "none",width:0,height: 0}}
+            navigationButtonStyling={{border: "none",width:0,height: 0,outline: 'none'}}
           />
         </div>
       </div>
@@ -70,7 +77,7 @@ export default function App() {
         <div className="text-3xl transition duration-150 ease-in-out">
           "{newData[random[focusElement]]?.comment}"
         </div>
-        <div className="text-xl italic mt-5">
+        <div className="text-xl italic mt-5 capitalize">
           {newData[random[focusElement]]?.reviewer?.displayName} | Google
         </div>
         <div className="icon mt-5 flex gap-2 flex-row justify-center lg:justify-start">
